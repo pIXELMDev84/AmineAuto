@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car GIF Background</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background: url('imgs/livreur.gif') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            flex-direction: column; /* Stack elements vertically */
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            font-family: 'Arial', sans-serif; 
+        }
+
+        .route {
+            margin-top: 340px;
+            font-size: 30px;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .return-btn {
+            margin-top: 20px;
+            background-color: #b60000;
+            color: white;
+            font-size: 18px;
+            border: none;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+           
+        }
+        .return-btn:hover, .return-btn:focus {
+                    box-shadow: 0 5px 15px rgb(189, 85, 85);
+        }
+    </style>
+</head>
+<body>
+    <div class="route">
+        <p>Vous recevrez un appel bientôt pour confirmer votre commande, veuillez être en attente</p>
+        <a href="index.php" class="return-btn">Retourner à la page d'accueil</a>
+    </div>
+</body>
+</html>
